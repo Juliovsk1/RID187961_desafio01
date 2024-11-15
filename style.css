@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    font-family: "inter";
+}
+
+#DivTopo{
+    background: #303030;
+}
+
+.texto{
+    color: #FFFFFF;
+}
+
+#Titulo-Topo{
+    padding: 190px 40px 18px 80px;
+    font-size: 60px;
+    font-weight: 500;
+
+}
+
+#Texto-Topo{
+    margin-left: 43px;
+    margin-top: 2px;
+    padding: 0px 0px 180px 40px;
+    font-size: 20px;
+}
+
+#Dados{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background: #F9F9F9;
+    align-items: center;
+    display: flex;
+}
+
+#texto2{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    padding: 89px 0px 0px 180px;
+}
+#sub-texto{
+    color: black;
+    font-size: 20px;
+    padding: 0px 0px 60px 180px;
+}
+
+.texto-imagem{
+    padding-left: 100px;
+}
+#Titulo-imagem{
+    padding-bottom: 33px;
+    padding-top: 240px;
+    font-weight: 600;
+    font-size: 40px;
+}
+#Texto-imagem{
+    font-size: 24px;
+}
+
+#Principal{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#image{
+   margin-top: 90px;
+   padding-bottom: 60px;
+
+}
+
+#forms{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+input{
+    width: 380px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #0000004D 30%;
+    margin: 25px;
+    padding-left: 10px;
+}
+#form-titulo{
+    padding-top: 60px;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 158px;
+    height: 38px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 55px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(219, 201, 159);
+    color: white;
+    transform: scale(95%);
+    transition-duration: 0.5s;
+}
